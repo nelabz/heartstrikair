@@ -1,0 +1,10 @@
+export {default as HeroSection} from "./HeroSection";
+export {default as FeaturesSection} from "./FeaturesSection";
+export {default as GallerySection} from "./GallerySection";
+export {default as VideoSection} from "./VideoSection";
+export {default as StorySection} from "./StorySection";
+export {default as ContactSection} from "./ContactSection";
+export {default as Footer} from "./Footer";
+export {default as ImprintPage} from "./ImprintPage";
+export {default as PrivacyPolicyPage} from "./PrivacyPolicyPage";
+export {default as Navigation} from "./Navigation";
