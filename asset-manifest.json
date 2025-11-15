@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nelabz/static/css/main.4f267883.css",
-    "main.js": "/nelabz/static/js/main.f3776c61.js",
-    "index.html": "/nelabz/index.html",
-    "main.4f267883.css.map": "/nelabz/static/css/main.4f267883.css.map",
-    "main.f3776c61.js.map": "/nelabz/static/js/main.f3776c61.js.map"
+    "main.css": "/static/css/main.4f267883.css",
+    "main.js": "/static/js/main.6c0da8d8.js",
+    "index.html": "/index.html",
+    "main.4f267883.css.map": "/static/css/main.4f267883.css.map",
+    "main.6c0da8d8.js.map": "/static/js/main.6c0da8d8.js.map"
   },
   "entrypoints": [
     "static/css/main.4f267883.css",
-    "static/js/main.f3776c61.js"
+    "static/js/main.6c0da8d8.js"
   ]
 }
