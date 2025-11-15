@@ -16,15 +16,13 @@ import {
 
 // Main App Component
 export default function App(): JSX.Element {
-  // Use basename only for GitHub Pages subdomain (nelabz.github.io/nelabz)
-  // Remove basename when using custom domain
-  // const basename =
-  //   process.env.NODE_ENV === "production" && !window.location.hostname.includes("nelabz.com") ? "/nelabz" : "";
-
-  // basename="/nelabz"
+  // Dynamically set basename based on hostname
+  // GitHub Pages: uses /nelabz
+  // Custom Domain: uses no basename
+  const basename = window.location.hostname.includes('github.io') ? '/nelabz' : '';
 
   return (
-    <Router basename="nelabz.com">
+    <Router basename={basename}>
       <ScrollToTop />
       <div className="min-h-screen bg-black">
         <Navigation />
