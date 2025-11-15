@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nelabz/static/css/main.4f267883.css",
-    "main.js": "/nelabz/static/js/main.e23de748.js",
+    "main.js": "/nelabz/static/js/main.ee899aff.js",
     "index.html": "/nelabz/index.html",
     "main.4f267883.css.map": "/nelabz/static/css/main.4f267883.css.map",
-    "main.e23de748.js.map": "/nelabz/static/js/main.e23de748.js.map"
+    "main.ee899aff.js.map": "/nelabz/static/js/main.ee899aff.js.map"
   },
   "entrypoints": [
     "static/css/main.4f267883.css",
-    "static/js/main.e23de748.js"
+    "static/js/main.ee899aff.js"
   ]
 }
