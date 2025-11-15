@@ -9,17 +9,17 @@ interface GalleryImage {
 export default function GallerySection(): JSX.Element {
   const images: GalleryImage[] = [
     {
-      src: "http://nelabz.com/wp-content/uploads/2024/03/hs1-1024x619.png",
+      src: "/hs1-1024x619.png",
       alt: "HeartStrikair Hauptansicht",
       caption: "Der revolutionäre Air Hockey Tisch",
     },
     {
-      src: "https://nelabz.com/wp-content/uploads/2024/03/heartstrikair-front-1024x572.png",
+      src: "/heartstrikair-front-1024x572.png",
       alt: "HeartStrikair Frontansicht",
       caption: "Frontansicht mit LED-Beleuchtung",
     },
     {
-      src: "https://nelabz.com/wp-content/uploads/2024/03/heartstrikair-play-1024x572.png",
+      src: "/heartstrikair-play-1024x572.png",
       alt: "HeartStrikair im Spiel",
       caption: "Spielerlebnis in Aktion",
     },

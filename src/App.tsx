@@ -16,13 +16,10 @@ import {
 
 // Main App Component
 export default function App(): JSX.Element {
-  // Dynamically set basename based on hostname
-  // GitHub Pages: uses /nelabz
-  // Custom Domain: uses no basename
-  const basename = window.location.hostname.includes("github.io") ? "/nelabz" : "";
-
+  // No basename needed for custom domain
+  // All routes are at root level
   return (
-    <Router basename="/">
+    <Router>
       <ScrollToTop />
       <div className="min-h-screen bg-black">
         <Navigation />

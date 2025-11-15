@@ -2,7 +2,7 @@
   "name": "nelabz",
   "version": "1.0.0",
   "description": "neLabz - HeartStrikair Air Hockey Website",
-  "homepage": "https://nelabz.github.io/nelabz",
+  "homepage": "https://www.nelabz.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",

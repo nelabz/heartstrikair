@@ -59,7 +59,7 @@ export default function HeroSection(): JSX.Element {
             <div className="relative z-10 rounded-2xl overflow-hidden border border-purple-500/30 shadow-2xl shadow-purple-500/20 transform hover:scale-105 transition-transform duration-500">
               <div className="aspect-video bg-gradient-to-br from-purple-900/50 to-pink-900/50 flex items-center justify-center">
                 <img
-                  src="http://nelabz.com/wp-content/uploads/2024/03/hs1-1024x619.png"
+                  src="/hs1-1024x619.png"
                   alt="HeartStrikair Air Hockey Tisch"
                   className="w-full h-full object-cover"
                   onError={handleImageError}
