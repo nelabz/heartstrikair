@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #000000; }
+        .fg { fill: #ffffff; }
+      }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #ffffff; }
+        .fg { fill: #000000; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100" height="100" class="bg" rx="20"/>
+
+  <!-- neLabz text style logo -->
+  <g class="fg">
+    <!-- "ne" -->
+    <path d="M 20 35 L 20 65 M 20 35 L 30 65 M 30 65 L 30 35"/>
+    <!-- "L" -->
+    <path d="M 40 35 L 40 65 L 50 65"/>
+    <!-- "AB" combined -->
+    <path d="M 55 35 L 55 65 M 55 50 L 62 50 M 62 35 L 62 65 M 55 35 L 62 35 M 55 65 L 62 65"/>
+    <!-- "Z" -->
+    <path d="M 70 35 L 80 35 L 70 65 L 80 65"/>
+  </g>
+
+  <style>
+    path {
+      stroke-width: 3;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      fill: none;
+      stroke: currentColor;
+    }
+    .fg path {
+      stroke: inherit;
+    }
+  </style>
+</svg>
