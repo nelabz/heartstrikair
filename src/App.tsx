@@ -26,7 +26,7 @@ export default function App(): JSX.Element {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/impressum" element={<ImprintPage />} />
-          <Route path="/datenschutz" element={<PrivacyPolicyPage />} />
+          <Route path="/privacy" element={<PrivacyPolicyPage />} />
         </Routes>
         <Footer />
       </div>

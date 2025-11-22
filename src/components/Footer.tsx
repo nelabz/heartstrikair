@@ -18,7 +18,7 @@ export default function Footer(): JSX.Element {
             <Link to="/impressum" className="text-gray-400 hover:text-purple-400 transition">
               Impressum
             </Link>
-            <Link to="/datenschutz" className="text-gray-400 hover:text-purple-400 transition">
+            <Link to="/privacy" className="text-gray-400 hover:text-purple-400 transition">
               Datenschutz
             </Link>
             <a
